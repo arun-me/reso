@@ -1,0 +1,28 @@
+body{
+	margin: 0px;
+}
+
+header{
+	text-align: center;
+	color: red;
+	background-color: black;
+}
+h1, h2{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font-size: 5rem;
+}
+h2{
+	letter-spacing: 1rem;
+	font-family: fantasy;
+	font-style: italic;
+}
+ul{
+	display: flex;
+	list-style: none;
+}
+li{
+	padding: 20px;
+}
