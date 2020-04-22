@@ -30,8 +30,10 @@ ul{
 li{
 	padding: em;
 }
-footer{
-	font-size: 10%vh;
+.footerText{
+	font-size: 1rem;
+	padding: 1rem;
+	margin: 1rem;
 }
 a{
 	color: red;
