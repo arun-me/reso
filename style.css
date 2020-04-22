@@ -2,10 +2,12 @@ body{
 	margin: 0px;
 }
 
-header{
+header, footer{
 	text-align: center;
-	color: red;
+	color: white;
 	background-color: black;
+	height: auto;
+	width: auto;
 }
 h1, h2{
 	margin: 0px;
@@ -13,16 +15,24 @@ h1, h2{
 }
 h1{
 	font-size: 5rem;
+	color: red;
 }
 h2{
 	letter-spacing: 1rem;
 	font-family: fantasy;
 	font-style: italic;
+	font-size: 1em;
 }
 ul{
 	display: flex;
 	list-style: none;
 }
 li{
-	padding: 20px;
+	padding: em;
+}
+footer{
+	font-size: 10%vh;
+}
+a{
+	color: red;
 }
