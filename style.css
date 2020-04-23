@@ -1,7 +1,6 @@
 body{
 	margin: 0px;
 }
-
 header, footer{
 	text-align: center;
 	color: white;
@@ -23,18 +22,50 @@ h2{
 	font-style: italic;
 	font-size: 1em;
 }
-ul{
-	display: flex;
-	list-style: none;
+#ht31, #ht32 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
 }
-li{
-	padding: em;
+#container{
+	background: linear-gradient(to right, red , yellow); 
+}
+.test{
+	text-align: center;
+	height: 4rem;
+}
+footer{
+	bottom: 0;
 }
 .footerText{
 	font-size: 1rem;
 	padding: 1rem;
 	margin: 1rem;
 }
-a{
-	color: red;
+#first, .listing{
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  letter-spacing: 4px;
+
+  color: tomato;
+}
+.coolTitle{
+  word-spacing: -8px;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+.done {
+  text-decoration: line-through;
 }
