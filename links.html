@@ -4,23 +4,31 @@
 	<title>Reso</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-	<header>
-		<h1>Reso</h1>
-		<h2>All Resources for a Developer!</h2>
- 	</header>
- 	<nav class="link">
+<body onload="updateClock(); setInterval('updateClock()', 1000 )">
+
+	<!-- header -->
+	
+ <header>
+		<div>
+			<h1>Reso</h1>
+			<h2>All Resources for a Developer!</h2>
+		</div>
+ </header>
+ <nav class="link">
  		<a class="a" href="index.html">HOME</a>
  		<a class="a" href="links.html">LINKS</a>
- 	</nav>
-	<div class="content">
+ 		<span id="clock">&nbsp;</span>
+ </nav>
+ <div class="content">
 
 		<a href="https://www.submarinecablemap.com/">The Submarine Cable Map</a>
 		<p>To Find Internet Backbone cable routes</p>
 
 		<a href="">Trace Route Tutorial</a>
 		<p>Tutorial Showing How Tracrt Works</p>
-		<xmp>tracert</xmp>
+		<pre>
+			<p>code: tracert</p>
+		</pre>
 
 		<a href="https://www.vox.com/a/internet-maps">The Internet Maps</a>
 		<p>Maps showing the History of internet</p>
@@ -42,9 +50,7 @@
 		<a href=""></a>
 		<p></p><a href=""></a>
 		<p></p>
-
-
-	</div>
+ </div>
 
  <footer>
 	 	<p class="footerText">want to contribute your code to this website ==>
