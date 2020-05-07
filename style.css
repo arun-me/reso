@@ -18,7 +18,7 @@ h1{
 }
 h2{
 	letter-spacing: 1rem;
-	font-family: fantasy;
+/*	font-family: fantasy*/;
 	font-style: italic;
 	font-size: 1em;
 }
@@ -28,6 +28,18 @@ h2{
     text-align: center;
     text-transform: none;
     letter-spacing: 0.01em;
+}
+.content{
+	padding: 1em;
+	
+}
+.link{
+	background-color: black;
+}
+.a{
+	padding: .5em;
+	color:red;
+	text-decoration: none;
 }
 /*#gradient{
 	background: linear-gradient(to right, red , yellow); 
