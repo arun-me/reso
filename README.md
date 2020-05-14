@@ -1,4 +1,3 @@
-# Reso
+# Reso-depriciated
 Resources in Website     
-hello world!       
-Arun here. This site is about "All resources needed for a developer" available in a single website.
+This is an old code of project Reso,its preserved just to know how i started my career.
