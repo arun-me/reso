@@ -1,2 +1,2 @@
 # Reso
-Resources in Website     
+All Resources A Developer Needs!     
