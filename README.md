@@ -1,2 +1,2 @@
 # Reso
-All Resources A Developer Needs!     
+All Resources A Developer Needs!
