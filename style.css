@@ -1,13 +1,17 @@
+*{
+	margin:0;
+}
+
 /* Style the header */
 .header {
-  padding: 10px 16px;
+  padding: 1rem 1.5rem;
   background: #555;
   color: #f1f1f1;
 }
 
 /* Page content */
 .content {
-  padding: 16px;
+  padding: 1rem;
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
@@ -19,11 +23,15 @@
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 102px;
+  padding-top: 1rem;
 }
 
 body{
-	margin: 0px;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+    background-color: #121212;
+    text-align: center;
 }
 header, footer{
 	text-align: center;
@@ -33,7 +41,6 @@ header, footer{
 	width: auto;
 }
 h1, h2, #gradient, footer{
-	margin: 0px;
 	padding: 0px;
 }
 h1{
@@ -53,9 +60,6 @@ h2{
     text-transform: none;
     letter-spacing: 0.01em;
 }
-body {
-  background-color: #121212;
-}
 #clock{
 	color: red;
 	position: fixed;
@@ -64,17 +68,26 @@ body {
 	font-size: 18px;
 }
 #content{
+	display: flex;
+	flex-wrap: wrap;
+	flex: auto;
+	align-items: baseline;
 	padding: 1em;
 	background-color:orange;
 }
 .link{
 	background-color: black;
-	padding: 1em;
+	display: flex;
 }
 .a{
 	padding: .5em;
 	color:red;
 	text-decoration: none;
+}
+.currentPage{
+	background-color: white;
+	color:black;
+	border: 2px solid red;
 }
 /*#gradient{
 	background: linear-gradient(to right, red , yellow); 
@@ -99,7 +112,7 @@ footer{
 #first, .listing{
   text-align: center;
   font-family: 'Oswald', Helvetica, sans-serif;
-  letter-spacing: 4px;
+  letter-spacing: 1rem;
 
   color: tomato;
 }
@@ -120,4 +133,77 @@ footer{
 }*/
 .done {
   text-decoration: line-through;
+}
+.box{
+	padding: 1rem;
+	border : 2px solid red;
+}
+.title{
+	color : red;
+}
+.selector{
+	color : brown;
+}
+.property{
+	color : blue;
+}
+.value{
+	color : green;
+}
+/*.text{
+	color: ;
+}*/
+.inline{
+	display: inline;
+}
+.container{
+	display: flex;
+	flex: 1 1 auto;
+}
+}
+.HolyGrail {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.HolyGrail-body {
+  display: flex;
+  flex: 1;
+}
+.HolyGrail-content {
+  flex: 1;
+}
+
+.HolyGrail-nav, .HolyGrail-ads {
+  /* 12em is the width of the columns */
+  flex: 0 0 12em;
+}
+
+.HolyGrail-nav {
+  /* put the nav on the left */
+  order: -1;
+}
+.HolyGrail,
+.HolyGrail-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.HolyGrail-nav {
+  order: -1;
+}
+
+@media (min-width: 768px) {
+  .HolyGrail-body {
+    flex-direction: row;
+    flex: 1;
+  }
+  .HolyGrail-content {
+    flex: 1;
+  }
+  .HolyGrail-nav, .HolyGrail-ads {
+    /* 12em is the width of the columns */
+    flex: 0 0 12em;
+  }
 }
