@@ -207,3 +207,6 @@ footer{
     flex: 0 0 12em;
   }
 }
+xmp{
+border: 1px solid red;
+}
